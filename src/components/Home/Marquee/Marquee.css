@@ -1,0 +1,51 @@
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    background: black;
+    padding: 2vh 0;
+    position: relative;
+  }
+  
+  .marquee-track {
+    display: flex;
+    width: 250%;
+    animation: marquee 30s linear infinite;
+  }
+  
+  .marquee-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+    line-height: 40px;
+    font-size: 42px;
+    line-height: normal;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  }
+
+  .marque-item-title:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logo {
+    width: 4vw;
+    height: auto;
+    margin-bottom: 1vh;
+  }
+  .logotext{
+    font-size: 4vh;
+    margin-left: 2vh;
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

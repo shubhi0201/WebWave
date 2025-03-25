@@ -1,0 +1,135 @@
+.about{
+    padding:18vh 0;
+    display: flex;
+  width: 100vw;
+    justify-content: center;
+	margin: auto;
+   
+
+}
+.aboutdata{
+width:55vw;
+color:white;
+}
+.about1{
+    display: flex;
+        
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+       
+       
+}
+.aboutus{
+	margin-left:1vh;
+    background: linear-gradient(60deg, #3663D8 -20%, #77BEFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image img{
+    height:3vh;
+    width: 3vh;
+}
+.aboutimage {
+    width: 39vw;
+    color: white;
+    height: auto;
+   
+}
+.aboutimage img{
+    max-width: 100%;
+    color: white;
+    height: auto;
+	width: 34vw;
+   
+}
+.aboutimage::before{
+   box-sizing:  border-box;
+}
+.sub-title{
+	padding:2vh 0;
+	margin:2vh 0;
+}
+.title{
+	margin-bottom: 25px;
+    text-transform: capitalize;
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 800;
+	width: 50vw;
+}
+.subtitle{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.image2 img{
+	height:auto;
+	width: auto;
+}
+.subtitle2{
+	height: auto;
+	width: auto;
+	padding:0 10vh;
+	display: flex;
+	flex-direction: column;
+	
+}
+.Button2{
+	position: relative;
+	top:8vh;
+	left:10vw;
+}
+.text{
+	font-size: 2.4vh;
+	line-height: 25px;
+}
+.incresediv{
+	display: flex;
+	font-size: 6vh;
+	margin-top:9rem;
+	justify-content: space-around;
+	font-weight: 800;
+
+	
+}
+.count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    border-bottom: 2px solid rgba(48, 48, 46, 0.6);
+    padding-bottom: 3vh;
+    position: relative;
+}
+
+.count::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(90deg, #3663D8, #77BEFF);
+}
+.count-title{
+	font-size: 2.5vh;
+	width:10vw;
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 1024px) {
+	.title{
+		font-size: 30px;
+		line-height: 35px;
+	}
+   
+}
+
+@media (max-width: 768px) {
+
+   
+}
