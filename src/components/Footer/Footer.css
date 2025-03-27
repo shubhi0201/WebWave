@@ -1,0 +1,173 @@
+
+.footer-main{
+    padding-top:20vh;
+    
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-grid{
+display: flex;
+color: white;
+justify-content: space-around;
+padding-bottom: 7vh;
+border-bottom: 1px solid rgba(71, 71, 71, 0.2);
+
+
+}
+.icon{
+    margin-right:2vw;
+}
+h5{
+    font-size: 28px;
+    font-family: "Russo One", sans-serif;
+    font-weight:500;
+    margin-bottom: 6vh;
+}
+h6{
+    font-size: 22px;
+    font-family: "Russo One", sans-serif;
+    font-weight:500;
+    margin-bottom: 4vh;
+}
+.footer-section-subtitle{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 400;
+    color: grey;
+    
+}
+.footer-section-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vh;
+    
+}
+.footer-section-subtitle span{
+    color: white;
+}
+
+
+.newsletter {
+    background-color: black;  /* Black background */
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 100vw;
+    max-width: 600px;
+    border:1px solid rgba(71, 71, 71, 0.2);
+ padding:1vh;
+ margin-bottom:4vh;
+    gap:15px
+    
+  }
+  
+  .newsletter input {
+    color: aqua;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: black;
+    
+    
+  }
+  
+  .newsletter button {
+    background-color: black; /* Orange button */
+    color: aqua;
+    border: none;
+    
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .quick-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+
+  }
+  .quick-links div ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0%;
+    
+  }
+  .quick-links div li{
+    margin-bottom: 1.5vh;
+    
+  }
+
+  li a{
+    text-decoration: none;
+    color: rgb(212, 214, 215);
+    font-size: 16px;
+    
+  }
+  .footer-sections{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Russo One", sans-serif;
+  }
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding:  40px;
+  }
+  .social-icons{
+    display: flex;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column; /* Stack text and icon */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    height: 5vh; /* Increased for better proportions */
+    width: 7vh;  /* Same as height for a perfect circle */
+    transition: transform 0.5s ease-out; /* Smooth effect */
+    cursor: pointer;
+    position: relative; /* Needed for ::after */
+    text-align: center;
+    font-weight: bold;
+    margin: 20vh 1.5vw 0 0;
+}
+
+.icons::after {
+    content: "";
+    position: absolute;
+    width: 7vh;  /* Slightly bigger to create an outer ring */
+    height:5vh; /* Keep circular */
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    top: 57%;
+    left: 42%;
+    transform: translate(-50%, -50%); /* Centers perfectly */
+}
+.icons:hover{
+    background: linear-gradient(to bottom, #6aa9ff, #00c8ff); /* Blue gradient */
+    color: white; /* Keep text white */
+}
+
+
+.icons a{
+    font-size: 2vh;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.icons:hover::after{
+    background: linear-gradient(to bottom, #6aa9ff, #00c8ff); /* Blue gradient */
+    color: white; /* Keep text white */
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+
+}

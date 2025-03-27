@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero";
 import "./Home.css";
 import AboutUs from "../Aboutus/AboutUs";
 import Marquee from "../Marquee/Marquee";
+
 const Home = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Home = () => {
      <div className="Infinite"> Infinite</div>
      <AboutUs/>
      <Marquee/>
+     
     </div>
     
   );
